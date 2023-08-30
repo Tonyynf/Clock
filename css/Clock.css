@@ -1,0 +1,97 @@
+body {
+    background: #313131;
+    color: #fffffc;
+    margin: 0;
+}
+
+#title {
+    text-align: center;
+    margin:30px;
+    font: bold 50px arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Clock */
+.boxClock {
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#clock {
+    width: 20%;
+    margin: auto;
+    font: bold 45px arial, sans-serif;
+    background-color: #a842ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Imagem e texto dependendo da hora do dia*/
+#hour {
+    text-align: center;
+}
+
+#image {
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+}
+
+#text {
+    font: bold 30px arial, sans-serif;
+}
+
+/* Footer */
+footer {
+    background: #a842ff;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
+
+h2 {
+    font: bold 20px arial, sans-serif;
+    margin:auto;
+}
+
+#social-media {
+    list-style: none;
+    font: 15px arial, Medium sans-serif;
+    transform: uppercase;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+#social-media li {
+    font: Medium;
+    color: #fff;
+    /*isso */
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-media li:hover {
+    color: #0B00FF;
+    cursor: pointer;
+    transition: 250ms linear;
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
