@@ -2,7 +2,7 @@
 
 📝 Descrição
 
-Projeto é basicamente um rélogio em tempo real
+Projeto é basicamente um relógio em tempo real
 
 📚 Conteúdo
 
